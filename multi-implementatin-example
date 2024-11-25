@@ -1,0 +1,28 @@
+// Copyright 2024 Canonical.
+package main
+
+func main() {
+
+}
+
+type TestInterface2 interface {
+	Alex()
+
+	Bob()
+}
+
+type testStruct struct {
+	TestInterface2
+}
+
+type testStruct1 struct {
+	TestInterface2
+}
+
+func (t *testStruct1) Bob() {}
+
+type bob struct{}
+
+func (b bob) Alex() {
+
+}
