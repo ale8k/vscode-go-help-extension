@@ -1,14 +1,14 @@
 {
   "name": "go-help",
   "displayName": "Go Help",
-  "description": "A simple extension pack providing QoL improvements for Golang development.",
+  "description": "A simple extension that provides QoL improvements when working within Go.",
   "icon": "images/go.png",
   "pricing": "Free",
   "publisher": "alexkilroy",
   "repository": {
     "url": "https://github.com/ale8k/vscode-go-help-extension"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.95.0"
   },
