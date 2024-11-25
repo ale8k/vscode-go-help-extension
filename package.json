@@ -5,7 +5,9 @@
   "icon": "images/go.png",
   "pricing": "Free",
   "publisher": "alexkilroy",
-  "repository": {},
+  "repository": {
+    "url": "https://github.com/ale8k/vscode-go-help-extension"
+  },
   "version": "0.0.2",
   "engines": {
     "vscode": "^1.95.0"
